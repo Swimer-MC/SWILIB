@@ -3,7 +3,7 @@ using System.Net;
 
 public class SWILIB
 {
-    // 21 USEFUL METHODS!!! This update: 22:50 22.01.2021 (First update: 22:50 22.01.2021)
+    // 22 USEFUL METHODS!!! This update: 11:13 23.01.2021 (First update: 22:50 22.01.2021)
     
     // RandOMIZATION
     public static int Rand(int min, int max)
@@ -192,6 +192,20 @@ public class SWILIB
         }
 
         return false;
+    }
+    public static bool IsNumber(string num)
+    {
+        try
+        {
+            int.Parse(num);
+        }
+        catch (FormatException e)
+        {
+            return false;
+        }
+
+        return true;
+
     }
     // STRINGS
     public static string RemoveFromString(string text, string text1)

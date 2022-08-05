@@ -12,15 +12,7 @@
 - `ConnectedToInternet()` - Returns a boolean value based on internet presence
 
 ------------
-
-
-###Author
-SwimerOK (Rozumny Olexandr) only
-> Donation: https://www.donationalerts.com/r/swimer
-> Discord: Swimer#0582
-
-------------
-
+ 
 ### Some works
 ######- Java) Minecraft plugin (Working With Files) https://www.spigotmc.org/resources/workingwithfiles.87135/
 #####Here is all))
